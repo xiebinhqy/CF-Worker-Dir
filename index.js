@@ -2,8 +2,8 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "自定义导航",                 //write your website title
-  subtitle: "Cloudflare Workers Dir", //write your website subtitle
+  title: "一武科技导航",                 //write your website title
+  subtitle: "yiwu keji", //write your website subtitle
   logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: true,                     //use hitokoto or not
   search:true,                        //enable search function
@@ -17,13 +17,22 @@ const config = {
       template:"https://www.google.com/search?q=$s"
     },
     {
-      name:"必 应",
-      template:"https://www.bing.com/search?q=$s"
+      name:"3 6 0",
+      template:"https://m.so.com/"
     },
     {
       name:"搜 狗",
       template:"https://www.sogou.com/web?query=$s"
-    }
+    },
+    {
+      name:"Bing",
+      template:"https://www.bing.com/search?q=$s"
+    },
+    {
+      name:"DuckDuckGo",
+      template:"https://duckduckgo.com/?t=h_"
+    },
+
   ],
   selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
@@ -39,7 +48,7 @@ const config = {
   },
   lists: [                            //Url list
     {
-      name:"技术",
+      name:"推广活动",
       icon:"code",
       list:[
         {
@@ -65,7 +74,7 @@ const config = {
       ]
     },
     {
-      name:"学习",
+      name:"AI工具",
       icon:"graduation cap",
       list:[
         {
@@ -89,7 +98,267 @@ const config = {
           desc:"程序员集散地"
         },
       ]
-    }
+    },
+    {
+      name:"一武科技",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"云服务器（国内）",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"云服务器（海外）",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"云服务社区",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"域名服务商",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"站长工具",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"跨境支付",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"邮箱直链",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"网盘云盘",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"友情链接",
+      icon:"graduation cap",
+      list:[
+        {
+          url:"https://w3school.com.cn/",
+          name:"W3school在线教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://runoob.com/",
+          name:"菜鸟教程",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://segmentfault.com/",
+          name:"思否社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://jianshu.com/",
+          name:"简书",
+          desc:"程序员集散地"
+        },
+      ]
+    },
   ]
 }
 const el = (tag, attrs, content) => `<${tag} ${attrs.join(" ")}>${content}</${tag}>`;
@@ -112,10 +381,10 @@ addEventListener('fetch', event => {
 function getFavicon(url){
   if(url.match(/https{0,1}:\/\//)){
     //return "https://ui-avatars.com/api/?bold=true&size=36&background=0D8ABC&color=fff&rounded=true&name=" + url.split('//')[1];
-    return "https://www.google.cn/s2/favicons?sz=64&domain_url=" + url;
+    return "https://www.google.com/s2/favicons?sz=64&domain_url=" + url;
   }else{
     //return "https://ui-avatars.com/api/?bold=true&size=36&background=0D8ABC&color=fff&rounded=true&name=" + url;
-    return "https://www.google.cn/s2/favicons?sz=64&domain_url=http://" + url;
+    return "https://www.google.com/s2/favicons?sz=64&domain_url=http://" + url;
   } 
 }
 
@@ -141,7 +410,7 @@ function renderHeader(){
     }
   }).join(""))
   var input = el('div',['class="ui left corner labeled right icon fluid large input"'],el('div',['class="ui left corner label"'],el('img',['id="search-fav"','class="left floated avatar ui image"','src="https://www.baidu.com/favicon.ico"'],"")) + el('input',['id="searchinput"','type="search"','placeholder="搜索你想要知道的……"','autocomplete="off"'],"") + el('i',['class="inverted circular search link icon"'],""));
-  return el('header',[],el('div',['id="head"','class="ui inverted vertical masthead center aligned segment"'],(config.hitokoto ? el('div',['id="nav"','class="ui container"'],nav) : "") + el('div',['id="title"','class="ui text container"'],title + (config.search ? input + menu :"") + `${config.selling_ads ? '<div><a id="menubtn" class="red ui icon inverted button"><i class="heart icon"></i> 喜欢此域名 </a></div>' : ''}`)))
+  return el('header',[],el('div',['id="head"','class="ui inverted vertical masthead center aligned segment"'],(config.hitokoto ? el('div',['id="nav"','class="ui container"'],nav) : "") + el('div',['id="title"','class="ui text container"'],title + (config.search ? input + menu :"") + `${config.selling_ads ? '<div><a id="menubtn" class="red ui icon inverted button"><i class="heart icon"></i> 优惠活动截止时间 </a></div>' : ''}`)))
 }
 
 function renderMain() {
